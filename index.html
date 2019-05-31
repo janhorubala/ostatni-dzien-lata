@@ -1,0 +1,215 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Ostatni Dzień Lata</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Poprzez projekt „Ostatni dzień lata w letnisku” pragniemy odtworzyć świat na chwilę przed wybuchem II wojny światowej, cofnąć się w czasie i odnaleźć symboliczny ostatni dzień lata, wspomnienie dzieciństwa, które za chwilę miało się skończyć. Chcemy zgłębić historię podwarszawskich uzdrowisk na tzw. linii otwockiej, opowiedzieć o życiu kulturalnym mieszkańców, o rozrywkach przyjezdnych letników i o różnorodnej społeczności, która przebywała na tym terenie.">
+	<meta name="author" content="Wielkie Historie">
+	<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css">
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+		@font-face {
+			font-family: 'Cyrulik';
+			src: url("/fonts/Cyrulik-Stencil.woff") format("woff"),
+			url("/fonts/Cyrulik-Stencil.otf") format("opentype"),
+			url("/fonts/Cyrulik-Stencil.ttf") format("truetype");
+		}
+		body {
+			font-family: 'Poppins', sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		h1, h3 {
+			font-family: 'Cyrulik', sans-serif;
+			font-size: 6.250em;
+			line-height: 1.1em;
+			margin: 0;
+		}
+		h3 {
+			font-size: 2.125em;
+			line-height: 2em;
+			margin-left: -2em;
+		}
+		.bg {
+			position: absolute;
+			padding-top: 112.639%;
+			background-image: url('/assets/background.jpg');
+			background-position: center center;
+			background-size: cover;
+			top: 0;
+			left: 0;
+			right: 0;
+			z-index: -1;
+		}
+		.cont {
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			padding: 2.500em;
+			max-width: 87.500em;
+			margin: 0 auto;
+			display: flex;
+			align-items: flex-end;
+		}
+		.fluid {
+			background: white;
+			display: flex;
+			align-items: flex-end;
+			font-size: 1.125em;
+			padding: 2em 0;
+			position: absolute;
+			left: 0;
+			right: 0;
+			bottom: 8.125em;
+		}
+		.fluid > div {
+			padding: 0 20px;
+		}
+		.bigger {
+			font-size: 1.125em;
+		}
+		.link {
+			border: 3px solid #E7D814;
+			white-space: nowrap;
+			padding: 5px 10px;
+			font-size: 1em;
+			text-decoration: none;
+			color: black;
+		}
+		.w-h-logo {
+			width: 100%;
+		}
+		.m-k-logo {
+			width: 50%;
+		}
+		.logo-wrap {
+			flex: 0 0 10em;
+		}
+
+
+		@media screen and (min-width: 1920px) {
+			body {
+				font-size: 100%;
+			}
+		}
+		@media screen and (max-width: 1919px) {
+			body {
+				font-size: 87.5%;
+			}
+		}
+		@media screen and (max-width: 1679px) {
+			body {
+				font-size: 75%;
+			}
+		}
+		@media screen and (max-width: 1439px) {
+			body {
+				font-size: 66%;
+			}
+		}
+		@media screen and (max-width: 1024px) {
+			body {
+				font-size: 53%;
+			}
+		}
+		@media screen and (max-width: 800px) {
+			h3 {
+				white-space: nowrap;
+			}
+			.bg {
+				position: relative;
+				height: 100vh;
+				padding: 0;
+			}
+			.fluid {
+				top: 100vh;
+				flex-direction: column;
+				position: relative;
+			}
+			.fluid > div {
+				text-align: center;
+				padding: 20px;
+				font-size: 1.5em;
+			}
+			.link {
+				text-align: center;
+			}
+			.w-h-logo {
+				height: 150px;
+				width: auto;
+			}
+			.m-k-logo {
+				height: 50px;
+				width: auto;
+			}
+			.logo-wrap {
+				flex: 1 1 100%;
+				width: 100%;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="bg">
+		<div class="cont">
+			<h1>
+				Ostatni
+				<br />
+				dzień
+				<br />
+				lata
+			</h1>
+			<h3>
+				Wspólnie stwórzmy wystawę!
+			</h3>
+		</div>
+		<div class="fluid">
+			<div class="logo-wrap">
+				<img class="w-h-logo" src="/assets/wielkie-historie.png" />
+				<a href="http://www.fundacjapit.pl " class="link" target="_blank">
+					www.fundacjapit.pl
+				</a>
+			</div>
+			<div style="flex: 0 1 45%; align-self: flex-start;">
+				Poprzez projekt <span class="bigger">„Ostatni dzień lata w letnisku”</span> pragniemy odtworzyć świat na chwilę przed wybuchem II wojny światowej, cofnąć się w czasie i odnaleźć symboliczny ostatni dzień lata, wspomnienie dzieciństwa, które za chwilę miało się skończyć.
+				<br />
+				Chcemy zgłębić historię podwarszawskich uzdrowisk na tzw. linii otwockiej, opowiedzieć o życiu kulturalnym mieszkańców, o rozrywkach przyjezdnych letników i o różnorodnej społeczności, która przebywała na tym terenie.
+			</div>
+			<div style="flex: 0 1 50%; align-self: flex-start;">
+				Warsztaty adresowne są do uczniów warszawskich szkół średnich. Zapraszamy osoby nie tylko zainteresowane odkrywaniem historii, ale wszystkich otwartych na nowe opowieści.
+				<br />
+				<br />
+				Przez <span class="bigger">5 dni</span> warsztatowych uczestnicy pod okiem doświadczonych prowadzących będą odkrywać lokalne dziedzictwo: odwiedzą archiwa, spotkają się ze świadkami historii i dowiedzą się, jak podzielić się efektami własnych poszukiwań z szerszą publicznością.
+			</div>
+			<div class="logo-wrap">
+				<a href="" class="link" target="_blank">
+					zgłoś się
+				</a>
+			</div>
+			<div class="logo-wrap">
+				<img class="m-k-logo" src="/assets/ministerstwo-kultury.png" />
+				<p style="font-size: 0.65em; line-height: 1.4em; margin: 0">
+					<br />
+					Projekt realizowany przez
+					<br />
+					Fundację na rzecz Wielkich Historii,
+					<br />
+					dofinansowany ze środków
+					<br />
+					Ministra Kultury i Dziedzictwa Narodowego
+					<br />
+					pochodzących z Funduszu Promocji Kultury.
+				</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
